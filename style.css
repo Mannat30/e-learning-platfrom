@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+section {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 1rem;
+    padding: 1rem;
+    flex: 1 1 300px;
+    max-width: 600px;
+}
+
+#course-list {
+    list-style: none;
+    padding: 0;
+}
+
+#course-list li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+#course-list li:hover {
+    background-color: #e9ecef;
+}
+
+#course-list li.active {
+    background-color: #007bff;
+    color: white;
+}
+
+#progress-info {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+video {
+    width: 100%;
+    border-radius: 5px;
+    background-color: black;
+}
